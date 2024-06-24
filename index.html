@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj mahal travels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+</head>
+<body>
+    <center>
+    <header id="g">
+       
+    <div class="im">
+  <img src="the-good-times-masthead-174.png">
+
+</div>
+<div class="head">
+<nav class="navbar">
+
+<ul class="nav-links">
+    <li class="nav-link services"> <a href="#">🏠︎</a>
+     <ul class="drop-down">
+        <li>
+            <a href="#" style="text-decoration: underline;">latest posts</a>
+        </li>
+    </ul>
+</li>
+   
+    <li class="nav-link services"> <a href="#">find the trip</a>
+     <ul class="drop-down">
+        <li ><a href="https://www.intrepidtravel.com/en/africa"  style="text-decoration: underline;">africa</a></li>
+        <li > <a href="https://www.intrepidtravel.com/en/asia"  style="text-decoration: underline;">south africa </a></li>
+        <li> <a href="https://www.intrepidtravel.com/en/north-america"  style="text-decoration: underline;">pongalor</a></li>
+        <li> <a href="https://www.intrepidtravel.com/en/middle-east"  style="text-decoration: underline;">kerala</a></li>
+        <li> <a href="https://www.intrepidtravel.com/en/destinations"  style="text-decoration: underline;">madurai</a></li>
+    </ul>
+</li>
+   
+    <li class="nav-link services"> <a href="#">article</a>
+    <ul class="drop-down">
+        <li><a href="https://www.intrepidtravel.com/adventures/category/good-news/"  style="text-decoration: underline;"> good news</a></li>
+        <li><a href="https://www.intrepidtravel.com/en/africa"  style="text-decoration: underline;">good trips</a> </li>
+        <li><a href="https://www.intrepidtravel.com/adventures/category/good-trips/"  style="text-decoration: underline;"> good ideas</a></li>
+        <li><a href="https://www.intrepidtravel.com/adventures/category/good-life/"  style="text-decoration: underline;"> good life</a></li>
+    </ul>
+    </li>
+    <li class="nav-link services"> <a href="#">tour themes</a>
+        <ul class="drop-down">
+            <li><a href="#"  style="text-decoration: underline;"> cycling</a></li>
+            <li><a href="#"  style="text-decoration: underline;">foods</a> </li>
+            <li><a href="#"  style="text-decoration: underline;"> family</a></li>
+            <li><a href="#"  style="text-decoration: underline;"> 18 to 35</a></li>
+            
+        </ul>
+    </li>
+    <li class="nav-link services"> <a href="#">about</a>
+        <ul class="drop-down ">
+            <li><a href="#"  style="text-decoration: underline;"> about intrprit</a></li>
+            <li><a href="#"  style="text-decoration: underline;">responsible travel</a> </li>
+            <li><a href="#"  style="text-decoration: underline;"> booking</a></li>
+            <li><a href="#"  style="text-decoration: underline;"> subscribe</a></li>
+        </ul>
+    </li>
+    <li class="nav-link"> <a href="#">write for us</a></li>
+     <li><a href="#"><i class="fa-solid fa-magnifying-glass" style="padding-top: 10px;"></i></a></li>
+ </ul>
+  
+
+</nav>
+</div>
+</header>
+</center>
+<section>
+    
+    <div class="sub 1">
+        <center>
+        <h4 style="color: rgb(255, 66, 66);">GUIDES</h4><br>
+        <h1>Visiting the Taj Mahal: Everything you need to know</h1><br>
+        <h5><a href="#" >written by Bex Shapiro | August 9, 2017</a></h5><br><br>
+       
+        <img src="img 1.png" class="img"><br><br>
+    </center>
+        <h3 class="bold">Is there a sight more iconic, more beautiful, more jaw-droppingly spectacular than the Taj Mahal? </h3>><br><br>
+        <p class="light">Quite honestly, we can’t think of one.
+
+            At the very least, there’s no mausoleum more grand, no declaration of love more apparent than building a marble masterpiece for one’s favorite wife… And no better reason to travel than seeing its magnificence up close.
+            
+            After all, this is art. Built in Agra, India between 1631 and 1648, it’s also history. And, of course, it’s the perfect opportunity to take some otherworldly photos. So, to help visitors prepare for their Taj Mahal travels, we’ve prepared a little guide, enlisting the help of some Intrepid experts – from Destination Managers to acclaimed trip leaders – to cover all the bases.
+            
+            Coming up: what to bring, where to take the best snaps, what else to see in Agra (and beyond), and so much more…</h3><br><br>
+            <h3 class="bold">Before you arrive at the Taj Mahal</h3><br><br>
+            <p class="light"> That old saying ‘patience is a virtue’ really comes into its own when discussing the Taj Mahal.
+
+                Be prepared to be surrounded by hundreds (if not thousands) of people. These include Indian men, women and children who may ask to take photos with you.
+                
+                To prepare with the help of other travelers and a local tour guide, consider taking a group tour. Intrepid have Taj-visiting trips that range from<a href="https://www.intrepidtravel.com/en/india/indias-golden-triangle-143456" class="link"> 8-day Golden Triangle tours</a> (now with  <a href="https://www.intrepidtravel.com/en/india" class="link">solo-only departures!</a>) to <a href="https://www.intrepidtravel.com/en/india/india-real-food-adventure-151125" class="link">15-day trips dedicated to food</a>, to 19-day trips combining the <a href="https://www.intrepidtravel.com/en/india/highlights-india-nepal-143752" class="link"> highlights of India and Nepal.</a>
+                
+                If you’re more pressed for time, you can check out the Taj Mahal on a whirlwind day tour from Delhi. Check out Urban Adventures to see the itinerary that we’d recommend for this. And while you’re at it, check out their day trips in<a href="https://www.urbanadventures.com/en/delhi" class="link"> Delhi, Jaipur,</a> Varanasi and Mumbai!</p><br><br>
+                <center>
+                <img src="img 2.png" class="img">
+            </center><br><br>
+                <p class="light">The entrance queue can be pretty long during peak season but as long as you’re mentally prepared, you’ll be fine. What’s to come is more than worth the wait</p><br><br>
+                <h3 class="bold">What to bring to the Taj Mahal</h3><br>
+                <p class="light">Always leave your valuables in the hotel. There are lockers available at the Taj but it’s best to have minimal belongings on you so you don’t spend too much time checking in.<br><br>
+You really only need to bring the following in one small bag:</p>
+<ul class="point">
+    <li>Passport </li>
+    <li> Money</li>
+    <li>Water</li>
+    <li> Medicine</li>
+    <li>Camera</li>
+    <li> Phone Phone</li>
+    
+</ul><br><br>
+<h3 class="bold">What to wear to the Taj Mahal</h3><br><br>
+<p class="light">There is no dress code but you should still be respectful. If you want to enter the mosque, you will need to cover your head, shoulders and knees.<br>
+
+    It gets hot in Agra and there is very little shade, so wear light clothing and make sure you wear sunscreen. Then again, Agra also gets very cold in winter (Nov-Feb) so layers are your friend too.<br>
+    
+    If you visit with Intrepid, you’ll be taken there earlier in the day or later in the afternoon to avoid the worst of the heat.</p><br><br>
+    <center>
+<img src="img 3.png"> 
+</center> 
+<p class="light">Useful tip from Ryan Turner, Intrepid’s Destination Manager for India:</p><br><br>
+<p class="light">❛❛Having been to the Taj a few times, I’ve learnt the importance of wearing shoes that are easy to remove. You need to take your shoes off when you go inside and the easier they are to slip on and off the better. This actually applies to much of India – shoes with loads of laces are hard!</p>  
+<h3 class="bold">Other things you need to know</h3>
+   <p class="light"> No food is allowed inside.
+    
+    Cigarettes and lighters are also not allowed.
+    
+    Tripods and additional lighting equipment need prior permission to be brought with. Photography inside the mausoleum is prohibited. Most electronics (except cameras and small video cameras) are not allowed.
+    
+    Be wary of touts, thieves and rude shop keepers. It’s a busy, high-pressure area, but keep your wits about you and you won’t need to worry!</p><br><br>
+    
+    <h3 class="bold">  When you’re at the Taj Mahal</h3>
+    <p class="light"> Go early, wait for space to explore and photograph, and get yourself away from the crowds (if possible).</p><br><br>
+    <center>
+    <img src="img4.png">
+</center>
+<P class="light">If you walk around to the right side of the Taj (as you approach the east gate), you can get an amazing photo from the riverbank behind the Taj. (Always go in groups and get a rickshaw to take you there and back cheaply.)<br><br>
+
+    And simply focus on taking in all the magic. Even Intrepid leaders who see the Taj Mahal monthly (or more!) remain in awe of it. <a class="link">Sana Jinah,</a> one of the company’s inspiring female tour guides, has some tips on how to do this:<br><br>
+    
+    ❛❛The Taj Mahal is a place for exploring quietly on your own or with loved ones. So, once I’m done briefing my groups I give them a good 2-3 hours inside the Taj. There are ways I try to make the experience special and memorable for travelers, but if I say what they are then they will no longer be surprises!
+    The Taj has such a charm. Every time I see it it looks different (due to the direction of the sunlight). It’s so beautiful…<br><br>
+    
+    She also recommends those looking for optimum conditions try visiting the Taj Mahal at sunrise on a clear day.</p><br>
+    
+   <h3 class="bold"> Tips for taking photos at the Taj Mahal</h3><br><br>
+
+   <p class="light"> Everyone wants that iconic shot of themselves at the Taj Mahal. You know the one – where you sit on the bench and the grandeur of the marble mausoleum forms the backdrop.
+    
+    </P>
+    <center>
+        <img src="img 5.png">
+    </center>
+    <P class="light">But if you’re feeling creative and want to mix things up, there are tons of different angles worth seeking out.<br><br>
+
+        Below are some photography suggestions from Intrepid’s General Manager in India,<a href="ntrepidtravel.com/adventures/pravin-intrepid-manager-gender-equality-india/" class="link"> Pravin Tamang</a>. (His photography is amazing –<a  href="https://www.intrepidtravel.com/adventures/cities-india-street-photography/" class="link"> check it out!</a>)</P><br>
+     
+        <ul class="s">
+        <li>Shot from the arch of the main doorway</li><br>
+        <li> Capture the reflection of the fountains that line the route towards the Taj Mahal’s main platform</li><br>
+        <li>Shot of Taj Mahal from the riverside with the reflection on the river</li><br>
+        <li>Shot from the other side of the river, ‘Mehtab Bagh’, where you get a glimpse of Taj</li><br>
+        <li> The Taj Mahal can also be shot from some parts of the Red Fort</li><br><br>
+       
+      </ul> 
+      <p class="light">You can also get great photos from the many rooftops of restaurants close to the Taj Mahal. Unfortunately, Agra does get pretty smoggy, so winter can often have poor visibility earlier in the day and around sunset. That said, this can make shots look very atmospheric!</p>
+      <center>
+      <img src="img 6.png">
+    </center><br>
+    <h3 class="bold">What to do after visiting the Taj Mahal</h3><br><br>
+    <p class="light">
+        First, go back to your hotel room, take a shower, and revel in the relative peace and quiet. Then <br>explore these cool destinations both in and out of Agra:</p><br>
+        
+        <h3 class="bold">What to do in Agra</h3><br><br>
+
+        <p class="light">The Taj Mahal is, quite clearly, the star of the show in this northern Indian city. But the Agra Fort is also stunning, especially if you didn’t get a chance to go to the Red Fort in Delhi. A 16th-century Mughal monument and UNESCO World Heritage site, it’s a sight not to be missed.<br><Br>
+        
+        Despite being located on the <a href="https://www.intrepidtravel.com/en/india/indias-golden-triangle-143456" class="link">Golden Triangle</a> tourist circuit, there’s less to do in Agra than in many other Indian cities. It’s pretty polluted from the heavy industry (more on that later) and you likely won’t spend too long there, whatever the trip.<br><br>
+        
+        One way that Intrepid tries to show visitors a different perspective on the country is by (sometimes) taking travelers <a href="https://www.huffpost.com/archive/ca/entry/sheroes-hangout-cafe-is-run-entirely-by-acid-attack-survivors_n_13830342" class="link">to Sheroes Hangout</a>. Just blocks from the Taj Mahal, it’s a small cafe run entirely by female acid attack survivors. Here, victims of attacks are employed and tell their stories. It can be confronting, but also inspiring and memorable in equal measures.<br><br>
+        
+     <center> <a href="https://www.intrepidtravel.com/en/subscribe?utm_content=taj-mahal-travel-guide&utm_medium=subscriber-sitelink&utm_source=intrepid-blog" class="link">  SUBSCRIBE TO INTREPID’S NEWSLETTER FOR MORE TRAVEL GUIDES, COMPETITIONS,<br> GIVEAWAYS & MORE</a></center></p><br><br>
+        
+       <h3 class="bold"> Where to go outside of Agra</h3><br><br>
+        <p class="light">There are various great destinations only a few hours drive (well, 4-7) from the Taj Mahal. Of these, Orchha, Jaipur and Pushkar are all tourist-friendly, peaceful and beautiful places.<br><br>
+        
+        Orchha is a town that travelers often overlook. This is a shame, because it’s historic, laid-back and has a bunch of beautiful temples. It’s not always on tour itineraries, but you CAN visit it on <a href="https://www.intrepidtravel.com/en/india/delhi-kathmandu-143454" class="link">this 15-day trip </a>from <a href="https://www.intrepidtravel.com/en/nepal/delhi-to-kathmandu" class="link">Delhi to Kathmandu </a>(cooking demo and palace visit included!).</p><br><br>
+<center>
+        <img src="img 7.png">
+        <p class="light">Chaturbhuj Temple in Orchha</p>
+        </center>
+        <br><br>
+        <p class="light">Jaipur is much more well-known. Also known as the<a href="#" class="link"> ‘Pink City’,</a> the capital of Rajasthan is full of chaos, charm and unique architecture. Visit the hilltop Amber Fort, haggle in the enchanting bazaars, and consider taking a hot air balloon over the city to take it all in.<br><br>
+
+            Pushkar is another underrated town. One of the oldest and most serene towns in India, it’s home to Pushkar Lake, a sacred spot for Hindus that’s utterly dazzling at sundown. Because of its holy nature, the vegetarian food here is simply unmissable. Visit on this <a href="#" class="link">15-day trip</a> all around Rajasthan.</p><br><br>
+            
+          <h3 class="bold">  A final note about the Taj Mahal’s mud therapy</h3><br>
+            <p class="light">  As you may have <a href="#" class="link">read</a> or heard, the Taj Mahal has recently been undergoing a very thorough clean. Yep, to be precise, a mud mask as of April 2018.,<br><br>
+            
+            Why? Air pollution from factories in Agra had been slowly turning the Taj Mahal’s ivory-white surfaces yellow – and this was one way of restoring them to their former glory. The work – applying a clay traditionally used to clean marble to the entire structure of the Taj – was carried out by the Archaeological Survey of India. And this work was part of a series of restorative projects carried out on the historic site.</p>
+          <center> <img src="img 8.png"><br><br>
+           <a href="#" class="link" style="font-size: larger;">Check out Intrepid’s range of small group trips in India. We have an adventure for everyone.</a></center><br><br>
+           <p class="light">(Image credits from top to bottom: Intrepid Travel, Stephanie Young, Intrepid Travel, Intrepid Travel, Sarah Dibdin, Chris Grundy, Hamish Cattell, David Williams)</p>  <br><br>
+          <div class="icon">
+           <button class="facebook"> <i class="fa-brands fa-facebook-f"></i> </button>
+          <button class="twitter"><i class="fa-brands fa-twitter"></i></button>
+          <button class="pin"><i class="fa-brands fa-pinterest-p"></i></button>  
+        </div> <br><br>
+        <h3 class="bold">Feeling inspired?</h3>   
+    </div><br><br> 
+    </section>
+    <section class="tour">
+
+    <diV class="tour-content">
+        <div class="box">
+        <img class="tour1" src="table img 1.jpg">
+        <a  href="https://www.intrepidtravel.com/trips/HHSR" target="_blank" class="product-name">Rajasthan Adventure</a>
+        <h2>10 day trip</h2>
+        <button class="trip"> <a href="#" class="viwe">viwe trip</a></button>
+        </div>
+        <div class="box">
+            <img class="tour1" src="table 3.jpg">
+            <a  href="https://www.intrepidtravel.com/trips/HHSR" target="_blank" class="product-name">kerala</a>
+            <h2>10 day trip</h2>
+            <button class="trip"> <a href="#" class="viwe">viwe trip</a></button>
+            </div>
+         <div class="box">
+                <img class="tour1" src="HHSL.jpg">
+                <a  href="https://www.intrepidtravel.com/trips/HHSR" target="_blank" class="product-name">north india</a>
+                <h2>10 day trip</h2>
+                <button class="trip"><a href="#" class="viwe">viwe trip</a></button>
+                </div>
+        
+       
+    </diV>  
+</section>  
+
+<section>
+    <div class="xo">
+        <table class="dia">
+            <tr>
+                <td>
+                    <img src="photo.png">
+                </td>
+                <td class="dias">
+                    <h3 class="bold">BEX SHAPIRO</h3>
+                    <p class="light">
+                        Born in London and based in Toronto, Bex is happiest anywhere she can connect with interesting people over good food. She's passionate about sustainable travel and powerful storytelling, and her favourite cities are New York and Shanghai. She's also the Senior Editorial Manager at Intrepid. Follow her adventures on Twitter and Insta @BexShapiro.</p>
+                </td>
+            </tr>
+        </table>
+       
+        
+       
+        
+    </div>
+</section>
+<section class="last">
+    <h1 style="margin-bottom: 50px;" class="bold">---------------- YOU MIGHT ALSO LIKE ----------------</h1>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="slider1.png" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="slider2.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="slider3.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+</section>
+        
+
+    
+
+<section>
+    <div class="go">
+        <a href="#g" style="margin: 50%; padding-bottom: 2px;">back</a>
+    </div>
+</section>
+
+<footer id="food">
+  <table>
+    <tr>
+      <td>
+        <img src="food.svg" style="height: 100px; width: 100px; margin: 50px;">
+        <h4 style="color: white; display: inline;">Intrepid is committed to using travel as a force for good.<a href="#" style="color: #fff;"> Find out more</a></h4>
+      </td>
+      <td class="t">
+        <ul>
+         <a href="#" class="jp"> <li><i class="fa-brands fa-facebook"></i></li></a>
+         <a href="#" class="jp">  <li><i class="fa-brands fa-instagram"></i></li></a>
+         <a href="#" class="jp"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+         <a href="#" class="jp"> <li><i class="fa-brands fa-youtube"></i></li></a>
+         <a href="#" class="jp"><li><i class="fa-brands fa-linkedin"></i></li></a>
+         <a href="#" class="jp"> <li> <i class="fa-brands fa-pinterest"></i></li></a>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  
+   </footer>
+</body>
+
+</html>
